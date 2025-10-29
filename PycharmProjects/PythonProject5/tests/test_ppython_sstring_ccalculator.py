@@ -23,3 +23,6 @@ def test_multiple_numbers_sum():
     assert python_add("1,2,3") == 6
     assert python_add("4,5,6,7") == 22
     assert python_add("8,9,10,11,12") == 50
+    assert python_add("10,200,3000") == 3210
+    assert python_add("444,5555,647,711") == 7357
+    assert python_add("800000,900,1000000,1100000,1200000") == 4101800
