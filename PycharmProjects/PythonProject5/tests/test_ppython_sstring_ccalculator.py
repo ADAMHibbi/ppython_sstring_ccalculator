@@ -3,4 +3,7 @@ from src.ppython_sstring_ccalculator import python_add
 
 def test_python_add_empty_string_returns_zero():
     assert python_add("") == 0
-
+def test_single_number_returns_itself():
+    assert python_add("1") == 1
+    assert python_add("0") == 0
+    assert python_add("2") == 2
