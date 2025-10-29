@@ -18,3 +18,8 @@ def test_two_numbers_sum():
     assert python_add("5,15") == 20
     assert python_add("10,30") == 40
     assert python_add("20,40") == 60
+def test_multiple_numbers_sum():
+    """اختبار: أكثر من رقمين مفصولين بفواصل"""
+    assert python_add("1,2,3") == 6
+    assert python_add("4,5,6,7") == 22
+    assert python_add("8,9,10,11,12") == 50
